@@ -1,27 +1,32 @@
 # PruebaUnicomer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+Proyecto de prueba prueba tecnica para el cliente unicomerce, basado en una tienda usando el api fakestore.
+
+## Requisitos
+
+Asegúrate de tener las siguientes versiones de las herramientas instaladas en tu sistema:
+
+- **Angular CLI:** 15.0.0
+- **Node.js:** 18.14.0
+- **Gestor de Paquetes:** npm 9.3.1
+
+## Configuración
+
+1. Clona este repositorio en tu sistema local:
+
+   ```bash
+   git clone https://github.com/tuusuario/tuproyecto.git
+2. selecciona la rama main
+3. escribe en la terminal el codigo npm install
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+correr `ng serve` para desplegar el servidor. Navegar a `http://localhost:4200/`.
 
-## Code scaffolding
+## Estructura de código
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ejecuta  `ng generate component component-name` para generar un nuevo componente. También puedes utilizar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Ejecutar `ng build`  para compilar el proyecto. Los artefactos de compilación se almacenarán en el directorio.
