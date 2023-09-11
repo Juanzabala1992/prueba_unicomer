@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "unicomer-prueba": {
+      "hosting": {
+        "prueba_unicomer": [
+          "unicomer-prueba"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "unicomer-prueba"
+  }
+}

@@ -1,0 +1,20 @@
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ps-2 pe-2">
+        <div class="container-fluid">
+          <div class="image" (click)="routes('home')">
+                <img class="logo" src="../../assets/logo/logo1.png">
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Buscar productos" class="search">            
+          </div>
+          <div class="image">
+            <img class="user" src="../../assets/icons/person-circle.png">
+          </div>
+          <img class="search-icon" src="../../assets/icons/buscar.svg">
+          <div class="cart-container" (click)="routes('cart')">
+            <img class="cart-icon" src="../../assets/icons/cart.svg">
+            <div style="font-size:10px" class="badge bg-danger">{{totalItem}}</div>
+          </div>
+        </div>
+      </nav>
+</div>
